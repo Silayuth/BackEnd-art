@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cors());
 
 const allowedOrigins = [
-  "https://admin-app-cyan.vercel.app",
+  "https://admin-8la9peisv-rockys-projects-3ccd3ad6.vercel.app",
   "http://localhost:5175", // For local development
   "http://localhost:5176", // For local development
   "http://localhost:5173"
