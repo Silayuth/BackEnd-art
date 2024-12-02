@@ -23,11 +23,8 @@ connectCloudinary();
 // middlewares
 app.use(express.json());
 app.use(cors());
-const corsOptions = {
-  origin: 'https://admin-app-cyan.vercel.app/',
-  credentials: true,
-};
-app.use(cors(corsOptions));
+
+// app.use(cors(corsOptions));
 // const allowedOrigins = [
 //   "https://admin-app-cyan.vercel.app/",
 //   "http://localhost:5175", // For local development
