@@ -25,9 +25,10 @@ app.use(express.json());
 app.use(cors());
 
 const allowedOrigins = [
-  "https://artnakkk-frontend-admin.vercel.app",
+  "https://admin-app-cyan.vercel.app",
   "http://localhost:5175", // For local development
   "http://localhost:5176", // For local development
+  "http://localhost:5173"
 ];
 
 // Configure CORS
